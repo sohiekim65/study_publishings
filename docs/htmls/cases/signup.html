@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>
+      <a href="../../index.html" target="_self">Index</a>
+    </h3>
+    <h3>기본정보</h3>
+    <form action="../forms.html" method="get">
+      <table border="1">
+        <tr>
+          <th colspan="2">
+            <h3>기본정보</h3>
+          </th>
+        </tr>
+        <tr>
+          <div>
+            <th>이름</th>
+            <td>
+              <input type="text" name="user_name" id="user_name_id" />
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <th>아이디</th>
+            <td>
+              <input type="text" name="user_id" id="user_id" />
+              <button type="submit">아이디중복확인</button>
+              <div>6~16자까지 영문자(소문자), 숫자 사용 가능합니다.</div>
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <th>비밀번호</th>
+            <td>
+              <input type="text" name="password" id="password_id" />
+              <div>6~16자까지 영문자(소문자), 숫자 사용 가능합니다.</div>
+              <div>
+                3자리 연속 또는 같은 문자, 아이디는 사용하실 수 없습니다.
+              </div>
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <th>비밀번호 확인</th>
+            <td>
+              <input type="text" name="password_check" id="password_check_id" />
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <th>이메일</th>
+            <td>
+              <input type="text" name="email" id="email_id" /> @
+              <input type="text" name="site" id="site_id" />
+              <select name="cars" id="">
+                <option value="choose">메일주소선택</option>
+                <option value="naver">naver.com</option>
+                <option value="gmail">gmail.com</option>
+                <option value="daum">daum.net</option>
+              </select>
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <th>연락처</th>
+            <td>
+              <label for="">휴대전화</label>
+              <select name="phone" id="">
+                <option value="010">010</option>
+                <option value="011">011</option>
+                <option value="012">012</option>
+              </select>
+              -
+              <input type="text" name="phone_01" id="phone_01_id" />
+              -
+              <input type="text" name="phone_02" id="phone_02_id" />
+              <div>
+                <label for="">일반전화</label>
+                <select name="home" id="">
+                  <option value="choose">선택</option>
+                  <option value="02">02</option>
+                  <option value="013">013</option>
+                </select>
+                -
+                <input type="text" name="home_01" id="home_01_id" />
+                -
+                <input type="text" name="home_02" id="home_02_id" />
+              </div>
+              <div>연락처는 둘 중 하나만 입력해도 됩니다.</div>
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <th>우편번호</th>
+            <td>
+              <input type="text" name="postcode" id="postcode_id" />
+              <button type="submit">주소검색</button>
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <th>주소</th>
+            <td>
+              <textarea name="name" id="" cols="80" rows="1"></textarea>
+              <div>
+                <textarea name="name" id="" cols="20" rows="1"></textarea>
+              </div>
+            </td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <th>정보수신 여부</th>
+            <td>
+              서비스 및 이벤트 소식을
+              <input
+                type="checkbox"
+                name="Evnet_Email"
+                value="event_email"
+                id="event_email_id"
+              />
+              <label for="event_email_id">Email로 수신하겠습니다.</label>
+              <input
+                type="checkbox"
+                name="Evnet_Sms"
+                value="event_sms"
+                id="event_sms_id"
+              />
+              <label for="event_sms_id">SMS로 수신하겠습니다.</label>
+            </td>
+          </div>
+        </tr>
+      </table>
+      <hr />
+      <div>
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </body>
+</html>
