@@ -40,7 +40,7 @@
           <div>
             <th>비밀번호</th>
             <td>
-              <input type="text" name="password" id="password_id" />
+              <input type="password" name="password" id="password_id" />
               <div>6~16자까지 영문자(소문자), 숫자 사용 가능합니다.</div>
               <div>
                 3자리 연속 또는 같은 문자, 아이디는 사용하실 수 없습니다.
@@ -52,7 +52,11 @@
           <div>
             <th>비밀번호 확인</th>
             <td>
-              <input type="text" name="password_check" id="password_check_id" />
+              <input
+                type="password"
+                name="password_check"
+                id="password_check_id"
+              />
             </td>
           </div>
         </tr>
@@ -114,9 +118,9 @@
           <div>
             <th>주소</th>
             <td>
-              <textarea name="name" id="" cols="80" rows="1"></textarea>
+              <textarea name="address_01" id="" cols="80" rows="1"></textarea>
               <div>
-                <textarea name="name" id="" cols="20" rows="1"></textarea>
+                <textarea name="address_02" id="" cols="20" rows="1"></textarea>
               </div>
             </td>
           </div>
@@ -128,14 +132,14 @@
               서비스 및 이벤트 소식을
               <input
                 type="checkbox"
-                name="Evnet_Email"
+                name="evnet_email"
                 value="event_email"
                 id="event_email_id"
               />
               <label for="event_email_id">Email로 수신하겠습니다.</label>
               <input
                 type="checkbox"
-                name="Evnet_Sms"
+                name="evnet_sms"
                 value="event_sms"
                 id="event_sms_id"
               />
@@ -145,7 +149,18 @@
         </tr>
       </table>
       <hr />
-      <div>
+      <h6>
+          <div>
+            http://127.0.0.1:5500/docs/index.html?user_name=%EA%B9%80%EC%86%8C%ED%9D%AC&user_id=sohie&password=rksk&password_check=rksk&
+          </div>
+          <div>
+            email=dlapdlf&site=&cars=naver&phone=010&phone_01=0000&phone_02=0000&home=02&home_01=1111&home_02=1111&postcode=0001&
+          </div>
+          <div>
+            address_01=%EC%A3%BC%EC%86%8C1&address_02=%EC%A3%BC%EC%86%8C2&evnet_sms=event_sms
+          </div>
+          <div>
+      </h6>
         <button type="submit">Send</button>
       </div>
     </form>
