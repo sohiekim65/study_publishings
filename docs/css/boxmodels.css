@@ -37,18 +37,3 @@
   border-style: solid;
   border-color: blue rgba(255, 0, 0, 1) rgba(0, 255, 0, 0.5) seagreen;
 }
-
-.red-border {
-  border-style: solid;
-  border-color: rgba(255, 0, 0, 0.75);
-}
-
-.green-border {
-  border-style: solid;
-  border-color: rgba(0, 255, 0, 0.5);
-}
-
-.blue-border {
-  border-style: dotted;
-  border-color: rgba(0, 0, 255, 0.25);
-}
