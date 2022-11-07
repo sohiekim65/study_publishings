@@ -49,6 +49,6 @@
 }
 
 .blue-border {
-  border-style: solid;
+  border-style: dotted;
   border-color: rgba(0, 0, 255, 0.25);
 }
