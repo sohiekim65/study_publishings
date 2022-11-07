@@ -37,3 +37,7 @@
   border-style: solid;
   border-color: blue rgba(255, 0, 0, 1) rgba(0, 255, 0, 0.5) seagreen;
 }
+
+.border-short {
+  border: 5px solid blue;
+}
