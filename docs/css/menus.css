@@ -1,6 +1,21 @@
-.ul {
-  list-style-type: none;
+.menu-outline {
+  background-color: yellow;
+  text-align: center;
+}
+.ul-flat {
   display: inline-block;
+  margin: 20px auto 20px auto;
+}
+
+.ul-flat * {
+  display: inline-block;
+}
+
+/* ------------------------ */
+/* 
+.ul-flat {
+  display: inline-block;
+  list-style-type: none;
   padding: 0px;
   margin: 5px;
 }
@@ -20,4 +35,4 @@
 .title {
   font-size: 30px;
   font-weight: 900;
-}
+} */
