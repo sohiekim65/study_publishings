@@ -9,12 +9,17 @@
   list-style-type: none;
 }
 
+.list_ul > li > a {
+  text-decoration: none;
+}
+
 .list {
   padding: 5px;
   margin: 10px;
   background-color: white;
   border-right: 20px solid black;
   width: 100px;
+  text-decoration: none;
 }
 
 .contents {
