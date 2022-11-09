@@ -15,3 +15,7 @@
 .table_width_writer {
   width: 100px;
 }
+
+.table_align {
+  text-align: center;
+}
