@@ -1,0 +1,17 @@
+.table_title {
+  text-align: center;
+  color: white;
+  background-color: rgb(255, 160, 122);
+}
+
+.table_background {
+  background-color: rgb(255, 254, 224);
+}
+
+.table_width {
+  width: 200px;
+}
+
+.table_width_writer {
+  width: 100px;
+}
