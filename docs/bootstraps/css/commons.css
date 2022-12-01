@@ -11,3 +11,7 @@ body {
 input {
   margin-bottom: 1.5rem;
 }
+
+.border-bottom {
+  width: 20rem;
+}
