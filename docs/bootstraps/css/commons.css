@@ -2,15 +2,12 @@ body {
   padding: 1rem;
 }
 
-body > * {
-  margin-bottom: 1rem;
-}
-
 .border {
   padding: 1rem;
   width: 20rem;
 }
 
-.h2 {
+.border-bottom,
+input {
   margin-bottom: 1.5rem;
 }
