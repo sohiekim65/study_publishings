@@ -1,8 +1,13 @@
 body {
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
-.border {
+* {
+  /* margin: 0.2rem; */
+  border: 0.1rem solid gray;
+}
+
+/* .border {
   padding: 1rem;
   width: 20rem;
 }
@@ -11,4 +16,4 @@ body {
 #input {
   margin-bottom: 1.5rem;
   width: 20rem;
-}
+} */
