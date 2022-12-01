@@ -10,3 +10,7 @@ body > * {
   padding: 1rem;
   width: 20rem;
 }
+
+.h2 {
+  margin-bottom: 1.5rem;
+}
