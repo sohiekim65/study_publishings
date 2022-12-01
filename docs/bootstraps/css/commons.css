@@ -6,6 +6,6 @@ body > * {
   margin-bottom: 1rem;
 }
 
-body > div {
-  margin-bottom: rem;
+.border {
+  padding: 1rem;
 }
