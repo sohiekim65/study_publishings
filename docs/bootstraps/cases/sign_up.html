@@ -13,16 +13,16 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="row mt-3">
-        <div class="mt-5 col col-12 col-md-6 mb-3 text-center" id="contents">
-          <div class="fs-1 fw-bold mb-3">
+    <div class="container-fluid p-5 mt-3">
+      <div class="row">
+        <div class="mt-3 col col-12 col-md-6 mb-3 text-center" id="contents">
+          <div class="fs-1 fw-bold mb-2">
             <div>Vertically centered hero sign-up form</div>
           </div>
           <div>
             Below is an example form built entirely with Bootstrap's form
             controls. Each required form grop has a validation state that can be
-            triggered by attemptin...
+            triggered by attempting to submit the form without completing it.
           </div>
         </div>
         <div
@@ -30,13 +30,13 @@
           id="login"
         >
           <form action="../../index.html">
-            <div class="p-5" id="login-box">
+            <div class="p-3" id="login-box">
               <div id="email-input">
                 <input
                   type="email"
                   name="email"
                   id="email"
-                  class="form-control rounded"
+                  class="form-control rounded mb-2"
                   placeholder="Email address"
                 />
               </div>
@@ -45,7 +45,7 @@
                   type="password"
                   name="password"
                   id="password"
-                  class="form-control rounded"
+                  class="form-control rounded mb-2"
                   placeholder="Password"
                 />
               </div>
@@ -56,14 +56,14 @@
                   name="checkbox"
                   id="checkbox"
                 />
-                <label class="form-check-label" for="checkbox"
+                <label class="form-check-label mb-2" for="checkbox"
                   >Remember me</label
                 >
               </div>
-              <div>
-                <button class="btn btn-primary btn-7">Sign up</button>
+              <div class="mb-3">
+                <button class="btn btn-primary form-control">Sign up</button>
               </div>
-              <div class="border-bottom"></div>
+              <div class="border-bottom border mb-3"></div>
               <div class="fs-6">
                 By clicking Sign up, you agree to the terms of use.
               </div>
